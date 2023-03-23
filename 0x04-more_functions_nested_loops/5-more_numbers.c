@@ -14,10 +14,10 @@ void more_numbers(void)
 			if ( n >= 58)
 			{
 				_putchar(49);
-				_putchar(i - 10);
+				_putchar(n - 10);
 			}
 			else
-				_putchar(i);
+				_putchar(n);
 		}
 		_putchar('\n');
 	}
