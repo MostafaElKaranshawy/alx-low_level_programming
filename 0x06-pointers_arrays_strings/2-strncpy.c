@@ -1,23 +1,20 @@
-include "main.h"
-
+#include "main.h"
 /**
- * _strncpy: copy size n of the src string to dest string.
+ * _strncpy - copy size n of the src string to dest string
  * @dest: param pointer to char.
  * @src: param pointer to char.
+ * @n: param to integer.
  * Return: returns a pointer of char.
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	i = 0;
-
-	while (dest[i] != '/0' && srd[i] != '\0' && i < n)
-	{
+	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[i] = src[i];
-
-		i++;
-	}
+	for ( ; i < n; i++)
+		dest[i] = '\0';
 
 	return (dest);
 }
