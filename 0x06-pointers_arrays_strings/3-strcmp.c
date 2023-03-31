@@ -23,6 +23,7 @@ int _strcmp(char *s1, char *s2)
 				flag = 1;
 			else
 				flag = -1;
+			break;
 		}
 	}
 
