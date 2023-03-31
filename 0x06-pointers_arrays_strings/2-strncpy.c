@@ -6,6 +6,7 @@
  * @src: param pointer to char.
  * Return: returns a pointer of char.
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
