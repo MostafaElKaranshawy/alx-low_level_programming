@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
- * _strncpy: copy size n of the src string to dest string.
+ * _strncpy - copy size n of the src string to dest string
  * @dest: param pointer to char.
  * @src: param pointer to char.
+ * @n: param to integer.
  * Return: returns a pointer of char.
  */
 
